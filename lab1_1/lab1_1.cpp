@@ -5,22 +5,32 @@
 // Варіант 23
 #include <iostream>
 #include "Fraction.h"
+
 using namespace std;
 
-int main() {
+Fraction makeFraction(int a, int b)
+{
+    Fraction f1;
+    if (!f1.Init(a, b))
+        cout << "Wrong!" << endl;
+    return f1;
 
-	int first, second;
-	Fraction f1, u1;
+}
 
-	cout << "Example:" << endl;
-	cout << "If first value = 12 and second = 4, then our result = " << f1.ipart(12, 4) << "." << endl;
-	cout << "Now try it by your own." << endl;
+int main()
+{
+    Fraction f1;
+    f1.Read();
+    f1.Display();
 
-	cout << "Enter first value: ";
-	cin >> first;
-	cout << "Enter second value: ";
-	cin >> second;
+    int a;
+    int b;
+    cout << "a = ? "; cin >> a;
+    cout << "b = ? "; cin >> b;
+    cout << "Ipart = " << f1.ipart() << endl;
+    cout << endl;
+    f1 = makeFraction(a, b);
+    f1.Display();
 
-	int result = u1.ipart(first, second);
-		cout << "Our result = " << result << endl;
-	}
+    return 0;
+}

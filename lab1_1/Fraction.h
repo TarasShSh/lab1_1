@@ -10,7 +10,17 @@ class Fraction
 
 private:
 	int first, second;
-
 public:
-	int ipart(int first, int second);
+
+	int GetFirst() const { return first; }
+	double GetSecond() const { return second; }
+
+	void SetFirst(int value);
+	void SetSecond(int value);
+
+	bool Init(int a, int b);
+	void Display();
+	void Read();
+
+	int ipart();
 };
