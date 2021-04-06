@@ -2,9 +2,6 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\T\source\repos\lab1_1\Debug\UnitTest1.dll</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
       <FullPath>C:\Users\T\source\repos\lab1_1\Debug\lab1_1.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

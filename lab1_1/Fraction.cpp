@@ -43,6 +43,7 @@ void Fraction::Read()
 	{
 		cout << "first  =  "; cin >> a;
 		cout << "second =  "; cin >> b;
+		cout << endl;
 	} while (!Init(a, b));
 }
 

@@ -145,11 +145,6 @@
   <ItemGroup>
     <ClInclude Include="Fraction.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnitTest1\UnitTest1.vcxproj">
-      <Project>{8bef8e2c-4ca1-4b25-a4e5-e6f7a939af41}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

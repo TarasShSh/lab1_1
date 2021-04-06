@@ -22,15 +22,15 @@ int main()
     Fraction f1;
     f1.Read();
     f1.Display();
-
-    int a;
-    int b;
+    cout << "Ipart = " << f1.ipart() << endl;
+                                cout << endl;
+    int a, b;
     cout << "a = ? "; cin >> a;
     cout << "b = ? "; cin >> b;
-    cout << "Ipart = " << f1.ipart() << endl;
     cout << endl;
     f1 = makeFraction(a, b);
     f1.Display();
+    cout << "Ipart = " << f1.ipart() << endl;
 
     return 0;
 }
